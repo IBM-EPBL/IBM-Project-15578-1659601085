@@ -1,0 +1,58 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+body { 
+    font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+    color: #000000;  
+    background: rgb(240,238,141);
+background: linear-gradient(180deg, rgba(240,238,141,1) 37%, rgba(255,244,205,1) 68%);
+    text-align:center; 
+} 
+.text{
+    color:white;
+}
+.bg{
+    background: rgb(255,253,190);
+    background: linear-gradient(357deg, rgba(255,253,190,1) 37%, rgba(255,244,205,1) 68%);
+}
+h1 { 
+    font-size: 2.2em; 
+} 
+     
+h2 { 
+    font-size: 2.0em;     
+}
+     
+h4 { 
+    font-size: 1.6em;     
+}
+
+p { 
+    font-size: 1.2em;     
+}
+.mb-100{
+    margin-bottom:250px;
+}
+.top{
+    margin-top:30px;
+}
+input.text 
+  { 
+  padding: 3px; 
+  border: 1px solid #999999;     
+}
+
+img {  
+    max-width: auto;  
+    height: auto;  
+} 
+
+.text-responsive {
+    font-size: calc(50% + 0.6vw + 0.6vh);
+}
+
+.text-responsive-h {
+    font-size: calc(80% + 0.6vw + 0.6vh);
+}
